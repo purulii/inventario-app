@@ -1,0 +1,19 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inventario</title>
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#e11d48"><link rel="icon" href="icon.svg">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#f3f4f6;color:#111}
+header{background:#e11d48;color:#fff;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:5}
+header h1{font-size:18px;margin:0}header button{background:#fff3;color:#fff;border:0;border-radius:8px;padding:6px 10px}
+main{padding:12px;max-width:640px;margin:auto}.card{background:#fff;border-radius:12px;padding:12px;margin-bottom:10px;box-shadow:0 1px 2px #0001}
+.row{display:flex;align-items:center;gap:8px}.grow{flex:1}.muted{color:#6b7280;font-size:13px}
+.qty{display:flex;align-items:center;gap:6px}.qty button{width:44px;height:44px;border-radius:10px;border:0;font-size:22px;background:#e5e7eb}
+.qty input{width:64px;height:44px;text-align:center;font-size:18px;border:1px solid #d1d5db;border-radius:10px}
+.btn{background:#e11d48;color:#fff;border:0;border-radius:10px;padding:14px;font-size:16px;width:100%;font-weight:600}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin-bottom:10px}.tabs button{border:0;border-radius:999px;padding:8px 14px;background:#fff;white-space:nowrap}.tabs .on{background:#111827;color:#fff}
+.badge{font-size:11px;padding:2px 6px;border-radius:6px;background:#fef3c7;color:#92400e}.low{background:#fee2e2;color:#b91c1c}
+.stat{flex:1;text-align:center}.stat b{display:block;font-size:22px}input,select{font-size:16px;padding:10px;border:1px solid #d1d5db;border-radius:10px;width:100%}
+.note{margin-top:8px;font-size:14px;padding:8px}.pin{font-size:32px;letter-spacing:12px;text-align:center}
+.keys{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.keys button{height:60px;font-size:24px;border:0;border-radius:12px;background:#fff}
+.ej{background:#fef9c3;border:1px dashed #ca8a04;color:#854d0e;padding:8px;border-radius:10px;font-size:13px;margin-bottom:10px}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:6px;border-bottom:1px solid #eee;text-align:left}
+</style></head><body><div id="app"></div><script src="app.js"></script></body></html>
